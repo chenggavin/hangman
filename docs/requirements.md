@@ -32,5 +32,5 @@ if not, draw the next body part.
 
 ##Stretch goals
 
-
+1. Creating a function that creates alphabet buttons in a loop.
 
