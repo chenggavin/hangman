@@ -1,3 +1,23 @@
-#judgeword {
+/*#judgeword {
 	display: none;
+}*/
+
+.box {
+
+	display: inline-block;
+	height: 25px;
+	width: 15px;
+	padding: 2px;
+	border-color: red;
+	margin: 5px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.letter {
+	border-bottom: 1px solid blue;
+}
+
+#letter_0 {
+	display: 'block';
 }

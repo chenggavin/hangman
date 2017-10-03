@@ -11,22 +11,22 @@
 <link rel ="stylesheet" href="style.css">
 </head>
 
-<body class="container">
+<body class="container" onload="startFire();">
 
 <h1 align="center"> Hang Man! hopefully..</h1>
 
-<p>
+<p align="center">
 
 <img id="pics" align="middle" src="../images/hangingpost0.jpg" style="width: 250px">
 
 <div id="keyboard">
-  <div id="usedLetters" class="board">used</div>
-  <div id="unusedLetters" class="board">not used</div>
-  <div id="judgephrase" class="board">judge phrase</div>
+  <div id="usedLetters" class="panel">used</div>
+  <div id="unusedLetters" class="panel">not used</div>
+  <div id="judgephrase" class="panel">judge phrase</div>
 </div>
 
 
-<div class="container">
+<!-- <div class="container">
   <div class="btn-toolbar">
     <div class="btn-group btn-group-sm">
       <div class="row">
@@ -49,18 +49,9 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="container">
-  <div class="btn-toolbar">
-    <div class="btn-group btn-group-sm">
-      <div class="row">
-        <button id="alphabet" class="btn btn-default key"></button>
-      </div>
-    </div>
-  </div>
-</div>
-
+<button id="newgame">New Game</button>
 
 
 </p>
