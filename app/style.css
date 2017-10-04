@@ -1,23 +1,59 @@
-/*#judgeword {
-	display: none;
-}*/
+.title {
+	color:#E53A40
+}
+
+.panel {
+	height: 100px
+}
 
 .box {
 
 	display: inline-block;
 	height: 25px;
 	width: 15px;
-	padding: 2px;
-	border-color: red;
 	margin: 5px;
 	font-size: 14pt;
 	text-align: center;
 }
 
 .letter {
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid #30A9DE;
 }
 
-#letter_0 {
-	display: 'block';
+#pics {
+	width: 350px;
 }
+
+.panel {
+/*	text-align: center;
+*/}
+
+.used {
+	color: #2EC4B6;
+
+}
+
+#usedLetters {
+	color: blue;
+	text-transform: uppercase;
+	font-size: 14px
+}
+
+.magicword {
+	text-align: center;
+}
+
+#notification {
+	display: none;
+}
+
+#winnerMessage {
+	font-weight: bold;
+	padding: 12px 10px 5px 10px;
+}
+
+
+
+
+
+
