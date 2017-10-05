@@ -85,7 +85,7 @@ function letterJudge (letter) {
 			wrongCounter++;
 			console.log(wrongCounter);
 			document.getElementById('pics').src = "../images/hangingpost" + wrongCounter + ".jpg";
-			if (wrongCounter == 6) {
+			if (wrongCounter == 7) {
 				gG();
 			}
 	}
@@ -108,11 +108,11 @@ document.addEventListener('keydown', function(event) {
 function gG() {
 	if (winnerWinner === true) {
 		notification.style.display = 'block';
-		winnerMessage.innerHTML = "CONGRATULATIONS YOU WIN!!!!!!!!!!";
+		winnerMessage.innerHTML = "PHEW GOT AWAY JUST IN TIME!!!!!!!!!!";
 	}
 	else {
 		notification.style.display = 'block';
-		winnerMessage.innerHTML = "You lose! Stop Hanging around and start a new game!";
+		winnerMessage.innerHTML = "NOM NOM NOM NOMNOMONOMNONMONOM!";
 	}
 }
 

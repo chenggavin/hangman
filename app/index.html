@@ -13,27 +13,25 @@
 
 <body class="container" onload="startFire();">
 
+    <div>
+        <button id="newgame" onclick="newFire();" class="btn btn-default">New Game</button>
+        <h1 class="title"> Hang Man!</h1>
+    </div>
+    <div class="row bg-info img-rounded" id= "notification">
+        <p class="text-center" id="winnerMessage"></p>
+    </div>
+
+    <p align="center">
+
+    <img id="pics">
 
 
-<h1 align="center" class="title"> Hang Man!</h1>
+    <div class="panel used">
+        <h4> Used Letters </h4>
+        <p id="usedLetters"></p>
+    </div>
 
-<div class="row bg-info img-rounded" id= "notification">
-    <p class="text-center" id="winnerMessage"></p>
-  </div>
-
-<p align="center">
-
-<img id="pics">
-
-
-<div class="panel used">
-    <h4> Used Letters </h4>
-    <p id="usedLetters"></p>
-</div>
-
-<div id="judgephrase" class="panel magicword">judge phrase</div>
-
-<button id="newgame" onclick="newFire();"" class="btn btn-default">New Game</button>
+    <div id="judgephrase" class="panel magicword">judge phrase</div>
 
 <!-- <div class="container">
   <div class="btn-toolbar">
