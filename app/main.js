@@ -47,6 +47,7 @@ function startFire(){
 function newFire() {
 	newPhrase();
 	notification.style.display = 'none';
+	document.getElementById('pics').src = "../images/hangingpost0.jpg"; 
 }
 
 
