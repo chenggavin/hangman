@@ -40,14 +40,14 @@ var dogList = ["brussels griffon", "german shedpherd", "lab", "rottweiler", "bea
 
 function startFire(){
 	newPhrase();
-	document.getElementById('pics').src = "../images/hangingpost0.jpg";
+	document.getElementById('pics').src = "./images/hangingpost0.jpg";
 
 }
 
 function newFire() {
 	newPhrase();
 	notification.style.display = 'none';
-	document.getElementById('pics').src = "../images/hangingpost0.jpg"; 
+	document.getElementById('pics').src = "./images/hangingpost0.jpg"; 
 }
 
 
@@ -85,7 +85,7 @@ function letterJudge (letter) {
 	if (phrase.includes(letter)==false){
 			wrongCounter++;
 			console.log(wrongCounter);
-			document.getElementById('pics').src = "../images/hangingpost" + wrongCounter + ".jpg";
+			document.getElementById('pics').src = "./images/hangingpost" + wrongCounter + ".jpg";
 			if (wrongCounter == 7) {
 				gG();
 			}
