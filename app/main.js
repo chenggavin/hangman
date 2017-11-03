@@ -49,6 +49,9 @@ function newFire() {
 	notification.style.display = 'none';
 	document.getElementById('pics').src = "./images/hangingpost0.jpg"; 
 	usedLetters.innerHTML=[''];
+	winnerWinner = false;
+	wrongCounter = 0;
+	letterArray = [];
 }
 
 
@@ -66,6 +69,8 @@ function newPhrase () {
 		else { 
 			box.className = 'letter box num';
 		//box.innerHTML = phrase[i];
+		// ^ ^ ^ uncomment to see the box with VISIBLE letters.
+
 		}
 		judgephrase.appendChild(box);
 }
